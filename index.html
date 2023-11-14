@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="description" content="My best homepage ever"/>
+    <title>My best homepage ever</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body ondblclick="this.classList.toggle('bg')">
+
+<!-- Макет, конечно, кривоват. Пришлось выкручиваться -->
+
+<header>
+    <div class="logo">
+        <a href="/">
+            UniDesign
+        </a>
+    </div>
+
+    <nav>
+        <ul class="main-menu">
+            <li>
+                <a href="/intro">
+                    About Me
+                </a>
+            </li>
+            <li>
+                <a href="/projects">
+                    Projects
+                </a>
+            </li>
+            <li>
+                <a href="/contacts">
+                    Contacts
+                </a>
+            </li>
+            <li>
+                <a href="/hireme">
+                    Hire Me
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="intro">
+        <div class="intro-description">
+            <h3 class="welcome">Welcome To My PortFolio</h3>
+
+            <h1>Hi, I am Oleg<br/>Web <span class="designer">Developer</span></h1>
+
+            <p>
+                Lorem Ipsum dolar sit amet, consectetur adipicsing elit.
+                Locus odio et, plateo erat est sed turpis hoc equit
+            </p>
+
+            <div class="intro-links">
+                <a href="/hire" class="button action">
+                    Hire Me
+                </a>
+                <a href="/project" class="button secondary my-project">
+                    My Project
+                </a>
+            </div>
+        </div>
+        <img src="me.jpg" alt="Oleg" class="my-photo"/>
+    </section>
+    <div class="about-wrap">
+        <section class="about">
+            <div class="about-description">
+                <h2>
+                    About Me
+                </h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has .
+                </p>
+            </div>
+
+            <a href="/hire" class="button action about-action">
+                Hire Me
+            </a>
+        </section>
+    </div>
+
+    <div class="portfolio-wrap">
+        <section class="portfolio">
+            <h2 class="portfolio-title">
+                My Projects
+            </h2>
+            <div>
+                Lorem Ipsum is simply dummy text of the printing
+            </div>
+
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <a href="/item1.png">
+                        <img src="item1.png" alt="Project 1">
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="/item2.png">
+                        <img src="item2.png" alt="Project 2">
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="/item1.png">
+                        <img src="item1.png" alt="Project 1">
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="/item3.png">
+                        <img src="item3.png" alt="Project 3">
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="/item3.png">
+                        <img src="item3.png" alt="Project 3">
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="/item3.png">
+                        <img src="item3.png" alt="Project 3">
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="/item4.png">
+                        <img src="item4.png" alt="Project 4">
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="/item4.png">
+                        <img src="item4.png" alt="Project 4">
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="/item4.png">
+                        <img src="item4.png" alt="Project 4">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="contact-wrap">
+        <section class="contact">
+            <h2 class="contact-title">
+                Contact Me
+            </h2>
+            <div>
+                Lorem Ipsum is simply dummy text of the printing
+            </div>
+
+            <form action="/submit" onclick="return false" class="contact-form">
+                <div class="from-row">
+                    <input
+                            type="text"
+                            value=""
+                            placeholder="Email"
+                            class="input"
+                    />
+                </div>
+                <div class="from-row">
+                    <!--     Ваш пароль очень важен для нас )) -->
+                    <input
+                            type="password"
+                            value=""
+                            placeholder="Password"
+                            class="input"
+                    />
+                </div>
+                <div class="from-row contact-text">
+                    <textarea
+                            type="text"
+                            value=""
+                            placeholder="Message..."
+                            class="input"
+                    ></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="input">
+                        Contact
+                    </button>
+                </div>
+            </form>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <section class="footer">
+        <div class="footer-first-column">
+            <h2 class="footer-logo">
+                <a href="/">UniDesign</a>
+            </h2>
+
+            <form action="/subscribe" class="subscribe-form" onsubmit="return false">
+                <input type="text" placeholder="Email" class="subscribe-input" />
+                <button type="submit" class="subscribe-submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="footer-column">
+            <ul>
+                <li>
+                    <strong>Platform</strong>
+                </li>
+                <li>
+                    <a href="/Home">Home</a>
+                </li>
+                <li>
+                    <a href="/Overview">Overview</a>
+                </li>
+                <li>
+                    <a href="/Pricing">Pricing</a>
+                </li>
+                <li>
+                    <a href="/About">About</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <ul>
+                <li>
+                    <strong>Help</strong>
+                </li>
+                <li>
+                    <a href="/HIW">How It Works?</a>
+                </li>
+                <li>
+                    <a href="/Pay">Pay?</a>
+                </li>
+                <li>
+                    <a href="/Question">Question?</a>
+                </li>
+                <li>
+                    <a href="/Contact">Contact?</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <ul>
+                <li>
+                    <strong>Contact</strong>
+                </li>
+                <li>
+                    (+000) 1234-6789
+                </li>
+                <li>
+                    116 Archlor Road
+                    Broadlaband,
+                    NewYork (NYC)
+                    1205
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <hr />
+
+    <section class="bottom">
+        <div class="copyright">
+            CopyRighted 2020-2023
+            <span class="rights">All Rights Reserved.</span>
+        </div>
+        <div class="social">
+            <a href="#" class="social-link s1" title="Youtube">Youtube</a>
+            <a href="#" class="social-link s2" title="Instagram">Instagram</a>
+            <a href="#" class="social-link s3" title="Facebook">Facebook</a>
+            <a href="#" class="social-link s4" title="Linkedin">Linkedin</a>
+        </div>
+    </section>
+</footer>
+
+
+
+
+
+
+
+
+</body>
+</html>
