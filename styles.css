@@ -20,7 +20,7 @@ body {
 }
 
 body.bg {
-    background: url("bg.png") no-repeat 50% 0;
+    background: url("img/bg.png") no-repeat 50% 0;
 }
 
 h1, h2 {
@@ -168,7 +168,7 @@ header {
     width: 1440px;
     margin: 0 auto;
     padding: 210px 0 217px;
-    background: url("2.png") no-repeat 100% 100%;
+    background: url("img/2.png") no-repeat 100% 100%;
 }
 
 .about-description {
@@ -231,7 +231,7 @@ header {
     width: 1440px;
     margin: 0 auto;
     padding: 66px 0 190px;
-    background: url("3.png") no-repeat 100% 50%;
+    background: url("img/3.png") no-repeat 100% 50%;
 }
 
 .contact-title {
@@ -435,17 +435,17 @@ hr {
 }
 
 .social-link.s1 {
-    background-image: url("s1.png");
+    background-image: url("img/s1.png");
 }
 
 .social-link.s2 {
-    background-image: url("s2.png");
+    background-image: url("img/s2.png");
 }
 
 .social-link.s3 {
-    background-image: url("s3.png");
+    background-image: url("img/s3.png");
 }
 
 .social-link.s4 {
-    background-image: url("s4.png");
+    background-image: url("img/s4.png");
 }
