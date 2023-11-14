@@ -15,7 +15,7 @@ html {
 
 body {
     min-height: 100%;
-    font:24px/36px Poppins;
+    font: 24px/36px Poppins;
     color: #383838;
 }
 
@@ -25,7 +25,7 @@ body.bg {
 
 h1, h2 {
     margin: 0 0 21px;
-    font:bold 48px/72px Poppins;
+    font: bold 48px/72px Poppins;
     color: #2000E7;
 }
 
@@ -42,6 +42,7 @@ a {
     text-decoration: none;
     color: #000;
 }
+
 a:hover {
     text-decoration: underline;
 }
@@ -60,6 +61,7 @@ header {
     box-sizing: border-box;
     font: bold 48px/72px Poppins;
 }
+
 .logo a {
     color: #0E0578;
 }
@@ -127,7 +129,7 @@ header {
 }
 
 .button:hover {
-    transform: translate(-1px,-1px);
+    transform: translate(-1px, -1px);
     text-decoration: none;
 }
 
@@ -135,6 +137,7 @@ header {
     background: #2000E7;
     color: #fff;
 }
+
 .button.secondary {
     background: #f6f5fd;
     color: #2000E7;
@@ -174,9 +177,8 @@ header {
 }
 
 .about-action {
-    margin:19px 0 0 77px;
+    margin: 19px 0 0 77px;
 }
-
 
 
 .portfolio-wrap {
@@ -191,6 +193,7 @@ header {
     margin: 0 auto;
     padding: 36px 0 12px;
 }
+
 .portfolio-title {
     letter-spacing: 10px;
     margin: 0;
@@ -202,6 +205,7 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     /*display: inline-block;*/
 }
+
 .portfolio-item {
     margin: 0 0 45px;
 }
@@ -209,11 +213,11 @@ header {
 .portfolio-item a {
     display: inline-block;
 }
+
 .portfolio-item img {
     border-radius: 6px;
     display: block;
 }
-
 
 
 .contact-wrap {
@@ -229,6 +233,7 @@ header {
     padding: 66px 0 190px;
     background: url("3.png") no-repeat 100% 50%;
 }
+
 .contact-title {
     font-size: 64px;
     line-height: 96px;
@@ -278,8 +283,9 @@ button.input {
     width: 327px;
     text-align: center;
 }
+
 button.input:hover {
-    transform: translate(-1px,-1px);
+    transform: translate(-1px, -1px);
 }
 
 .contact-form {
@@ -338,9 +344,11 @@ footer {
     border-radius: 30px;
     font: bold 31px/97px Jost;
 }
+
 .subscribe-input::placeholder {
     color: #fff;
 }
+
 .subscribe-input:focus {
     outline: 2px solid #fff;
 }
@@ -359,8 +367,9 @@ footer {
     font: 31px/97px Jost;
     font-weight: bold;
 }
+
 .subscribe-submit:hover {
-    transform: translate(-1px,-1px);
+    transform: translate(-1px, -1px);
 }
 
 
@@ -378,6 +387,7 @@ footer {
     margin: 0;
     padding: 0;
 }
+
 .footer-column li {
     margin: 0 0 40px;
     padding: 0;
@@ -406,6 +416,7 @@ hr {
 .rights {
     margin-left: 30px;
 }
+
 .social {
     flex-grow: 1;
     text-align: right;
@@ -426,12 +437,15 @@ hr {
 .social-link.s1 {
     background-image: url("s1.png");
 }
+
 .social-link.s2 {
     background-image: url("s2.png");
 }
+
 .social-link.s3 {
     background-image: url("s3.png");
 }
+
 .social-link.s4 {
     background-image: url("s4.png");
 }
