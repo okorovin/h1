@@ -277,6 +277,7 @@ textarea.input {
 button.input {
   width: 327px;
   text-align: center;
+  cursor: pointer;
 }
 
 button.input:hover {
@@ -357,10 +358,11 @@ footer {
   border-radius: 30px;
   font: 31px/97px Jost;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .subscribe-submit:hover {
-  transform: translate(-1px, -1px);
+  background: #fa7ffd;
 }
 
 .footer-first-column {
@@ -410,8 +412,6 @@ hr {
 .social {
   flex-grow: 1;
   text-align: right;
-  /*display: flex;*/
-  /*flex-direction: row;*/
 }
 
 .social-link {
